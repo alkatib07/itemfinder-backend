@@ -1,5 +1,9 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+node_modules
+.env
+.DS_Store
+
 # dependencies
 node_modules/
 
