@@ -23,7 +23,7 @@ import Animated, {
 } from "react-native-reanimated";
 
 // عنوان السيرفر المحلي
-const API_URL = "https://itemfinder-backend.onrender.com";
+import { API_URL } from "../config";
 
 // مكون التكبير
 function PinchZoomImage({ uri }) {
